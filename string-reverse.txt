@@ -1,0 +1,20 @@
+public class ReverseSentance{
+  
+public staic void main(String args[]){
+
+    String sentance[] = "reverse a given sentance".split();
+    Sring reversedSentance ;
+
+    for(int i= sentance.length -1;i >= 0 ;i++){
+      reversedSentance += sentance [i];
+}
+
+    System.out.println("reversedSentance is " +  reversedSentance );
+
+
+
+ 
+
+}
+
+}
