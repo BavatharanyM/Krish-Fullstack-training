@@ -5,7 +5,7 @@ public class CurrencyExchangeBigDecimal {
 
 	public static void main(String[] args) {
 		
-		in GBP value
+		    //in GBP value
 		double trasferAmout = 500; 
 		double transferfee = 1.90 ;
 		double availabletransferamount = trasferAmout - transferfee ;
@@ -17,8 +17,8 @@ public class CurrencyExchangeBigDecimal {
 		
 		BigDecimal oneGBP_big = BigDecimal.valueOf(oneGBP);
 		
-		//THIS IS COMPILE ERROR BCZ  UNDEFINED ARGUMENT IN BIGDECIMAL .
-		//System.out.println(able to receive based on begdecimal  + (trasferAmout_big  oneGBP));
+		     //THIS IS COMPILE ERROR BCZ  UNDEFINED ARGUMENT IN BIGDECIMAL .
+		     //System.out.println(able to receive based on begdecimal  + (trasferAmout_big  oneGBP));
 		
 		BigDecimal receivableamount = trasferAmout_big.multiply(oneGBP_big);
 		
