@@ -11,14 +11,14 @@ public class CurrencyExchangeBigDecimal {
 		double availabletransferamount = trasferAmout - transferfee ;
 		double oneGBP = 268.304 ; 
 		
-		System.out.println(able to receive based on double  + (availabletransferamount   oneGBP));
+		System.out.println("able to receive based on double :"  + (availabletransferamount  * oneGBP));
 		
 		BigDecimal trasferAmout_big = BigDecimal.valueOf(availabletransferamount);
 		
 		BigDecimal oneGBP_big = BigDecimal.valueOf(oneGBP);
 		
 		     //THIS IS COMPILE ERROR BCZ  UNDEFINED ARGUMENT IN BIGDECIMAL .
-		     //System.out.println(able to receive based on begdecimal  + (trasferAmout_big  oneGBP));
+		     //System.out.println(able to receive based on begdecimal  + (trasferAmout_big  * oneGBP));
 		
 		BigDecimal receivableamount = trasferAmout_big.multiply(oneGBP_big);
 		
@@ -26,8 +26,7 @@ public class CurrencyExchangeBigDecimal {
 		
 		receivableamount = receivableamount.setScale(2, BigDecimal.ROUND_CEILING) ;
 		
-		System.out.println(receivableamount with 2 scal  + receivableamount);
-			
-
+		System.out.println("receivableamount with 2 scal: "  + receivableamount);
+		
 }
 }
