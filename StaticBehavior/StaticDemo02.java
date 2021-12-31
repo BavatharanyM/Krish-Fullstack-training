@@ -15,22 +15,24 @@ System.out.println("1st non static block : " + count);
 
 }
 
+//static block 
+static{
+new StaticDemo02();
+System.out.println("2nd static block : " + count);
+}
+
 
 //static block 
 static{
 count = count + 30;
-System.out.println("2nd static block : " + count);
+System.out.println("3rd static block : " + count);
 }
 
 public StaticDemo02(){
 System.out.println("constructor " + count);
 }
 
-//static block 
-static{
-new StaticDemo02();
-System.out.println("3rd static block : " + count);
-}
+
 
 
 public static void main(String[] args){}
