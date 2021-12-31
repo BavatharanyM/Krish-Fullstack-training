@@ -13,7 +13,12 @@ Finally, the constructor.
 
 But , There is no any object instantiated,it means that,there is no constructor claas.with new keyword.
 Therefore, The non static block and constructor are not initialized here.
-So, the out put is 
+
+So ,we get the out put from:
+1st static block :count is 0
+then the 2nd static block :count is 30
+
+output
 1st static block : 0
 2nd static block : 30
 
@@ -32,3 +37,18 @@ As per the inialization order the out is:
 constructor 5
 3rd static block : 5
 2nd static block : 35
+
+In the 2nd static block,we call a new instance:
+It calls,non static bloack then calls constroctor enternally.
+
+So ,we get the out put from 1at staick block :count is 0
+then the 2nd static block,it calls new instance, as next,the non static block and constructor are inialized.
+
+1. in non staic block is first,thre ,the count variable is inialized as 5.
+2. then constructor,it prints count value as 5 
+3. finally,print statemnet of thestatic block.count is still 5.
+
+After complete the 2nd static block,it comes to 3rd static block.There is no more static block.
+
+
+
