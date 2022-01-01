@@ -1,6 +1,6 @@
 Report of the behavior of the static block ,non static block and construcor in java.
 
-In this StaticDemo02 class, there are 
+In this StaticDemo01 class, there are 
 1. a static block
 2. non static block
 3. static block
@@ -23,7 +23,7 @@ output
 2nd static block : 30
 
 
-In the StaticDemo01 class, there are 
+In the StaticDemo02 class, there are 
 1. a static block
 2. non static block
 3. static block which create new inistance
