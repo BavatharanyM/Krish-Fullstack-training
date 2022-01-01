@@ -1,4 +1,4 @@
-#Report of the behavior of the static block ,non static block and construcor in java.
+Report of the behavior of the static block ,non static block and construcor in java.
 
 In this StaticDemo01 class, there are 
 1. a static block
@@ -21,7 +21,7 @@ So ,we get the out put from:
 
 then the 2nd static block :count is 30
 
-######output:
+output:
 
 1st static block : 0
 2nd static block : 30
@@ -39,7 +39,7 @@ In the StaticDemo02 class, there are
 
 They are in this order in the class respectively.
 
-######As per the inialization order the output is:
+As per the inialization order the output is:
 
 1st static block : 0
 1st non static block : 5
