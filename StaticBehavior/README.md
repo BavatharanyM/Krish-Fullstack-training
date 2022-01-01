@@ -1,6 +1,6 @@
 Report of the behavior of the static block ,non static block and construcor in java.
 
-In this StaticDemo01 class, there are 
+In this StaticDemo02 class, there are 
 1. a static block
 2. non static block
 3. static block
