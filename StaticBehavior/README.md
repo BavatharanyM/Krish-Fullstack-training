@@ -16,7 +16,9 @@ But , There is no any object instantiated,it means that,there is no constructor 
 Therefore, The non static block and constructor are not initialized here.
 
 So ,we get the out put from:
+
 1st static block :count is 0
+
 then the 2nd static block :count is 30
 
 output
@@ -35,6 +37,7 @@ In the StaticDemo02 class, there are
 They are in this order in the class respectively.
 
 As per the inialization order the out is:
+
 1st static block : 0
 1st non static block : 5
 constructor 5
@@ -44,10 +47,16 @@ constructor 5
 In the 2nd static block,we call a new instance:
 It calls,non static bloack then calls constroctor enternally.
 
-So ,we get the out put from 1at staick block :count is 0
-then the 2nd static block,it calls new instance, as next,the non static block and constructor are inialized.
+So ,we get the out put from 
 
-1. in non staic block is first,thre ,the count variable is inialized as 5.
+1st staick block :count is 0
+
+then the 2nd static block,
+
+it calls new instance,
+as next,the non static block and constructor are inialized.
+
+1. in non staic block is first,there ,the count variable is inialized as 5.
 2. then constructor,it prints count value as 5 
 3. finally,print statemnet of thestatic block.count is still 5.
 
