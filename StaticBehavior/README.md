@@ -5,6 +5,7 @@ In this StaticDemo01 class, there are
 2. non static block
 3. static block
 4. constructor .
+
 They are in this order in the class respectively.
 
 First , the static blocks are declared and initialized in the order they appear in the class.
@@ -29,6 +30,8 @@ In the StaticDemo02 class, there are
 3. static block which create new inistance
 4. static block 
 5. constructor
+
+
 They are in this order in the class respectively.
 
 As per the inialization order the out is:
