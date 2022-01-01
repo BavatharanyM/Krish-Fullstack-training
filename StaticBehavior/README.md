@@ -11,7 +11,7 @@ First , the static blocks are declared and initialized in the order they appear 
 Then , the non-static block are declared and initialized.
 Finally, the constructor.
 
-But , There is no any object instantiated,it means that,there is no constructor claas.with new keyword.
+But , There is no any object instantiated,it means that,there is no constructor call with new keyword.
 Therefore, The non static block and constructor are not initialized here.
 
 So ,we get the out put from:
