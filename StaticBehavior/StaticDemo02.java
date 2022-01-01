@@ -3,7 +3,7 @@ public static int count ;
   
   //constructor
 public StaticDemo02(){  
-  System.out.println("constructor " + count);
+  System.out.println("first line constructor " + count);
 }
 
   //instance or non static block
