@@ -21,9 +21,12 @@ So ,we get the out put from:
 
 then the 2nd static block :count is 30
 
-output
+output:
+
 1st static block : 0
 2nd static block : 30
+
+
 
 
 In the StaticDemo02 class, there are 
