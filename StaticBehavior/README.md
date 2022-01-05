@@ -86,7 +86,7 @@ then, the constructor prints the count value as 5
 finally, print the statement of the static block. the count is still 5.
 After completing the 2nd static block, it comes to the 3rd static block. There is no more static block.
 
-####Summary: the order of initialization or execution
+#### Summary: the order of initialization or execution
 1. the static blocks are declared and initialized in the order they appear in the class.
 2. the non-static blocks are declared and initialized.
 3. the constructor
