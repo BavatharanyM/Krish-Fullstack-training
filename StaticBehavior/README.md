@@ -1,4 +1,4 @@
-# Report for order of th einialization of the static block ,non static block and construcor in java.
+# Report for order of the execution or inialization of the static block ,non static block and construcor in java.
 
 In this **StaticDemo01** class, there are 
 1. static block
