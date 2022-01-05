@@ -76,31 +76,18 @@ constructor 5
 3rd static block : 5
 2nd static block : 35
 
-In the 2nd static block,we call a new instance:
-It calls,non static bloack then calls constroctor enternally.
-
-So ,we get the out put from 
-
-1st staick block :count is 0
-
+In the 2nd static block, we call a new instance: It calls, non-static block then calls constructor internally . Then other static blocks are executed in order.
+So, we get the output from
+1st stack block: count is 0
 then the 2nd static block,
+It calls a new instance, as next, the non-static block and constructor are initialized and executed.
+in the non-staic block, first, there, the count variable is initialized as 5.
+then, the constructor prints the count value as 5
+finally, print the statement of the static block. the count is still 5.
+After completing the 2nd static block, it comes to the 3rd static block. There is no more static block.
 
-it calls new instance,
-as next,the non static block and constructor are inialized.
-
-1. in non staic block is first,there ,the count variable is inialized as 5.
-2. then constructor,it prints count value as 5 
-3. finally,print statemnet of thestatic block.count is still 5.
-
-After complete the 2nd static block,it comes to 3rd static block.There is no more static block.
-
-
-#### Summery : the order of inialitation
-
-
- **1.the static blocks are declared and initialized in the order they appear in the class.**
-
- **2.the non-static block are declared and initialized.**
- 
- **3.the constructor**
+####Summary: the order of initialization or execution
+1. the static blocks are declared and initialized in the order they appear in the class.
+2. the non-static blocks are declared and initialized.
+3. the constructor
 
