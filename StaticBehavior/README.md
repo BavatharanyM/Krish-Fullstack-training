@@ -27,7 +27,7 @@ _1st static block : 0
 >So that,The only the staic blockes are inialized based on thir order in the class.
 
 
-In the next class StaticDemo02,there are
+In the next class **StaticDemo02**,there are
 1. construcor
 2. non static block
 3. static block
